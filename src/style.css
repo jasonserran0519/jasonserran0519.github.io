@@ -155,8 +155,34 @@ button:focus {
 }
 
 .logo {
-  height: 1.4em !important;
-  width: 2.5em !important;
+  height: 3em !important;
+  width: 5em !important;
+}
+
+.js-logo {
+  height: 3em !important;
+  width: 5em !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+  border-radius: 8px !important;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2) !important;
+  transition: all 0.3s ease !important;
+}
+
+.js-logo:hover {
+  transform: translateY(-2px) !important;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3) !important;
+}
+
+.js-text {
+  font-family: 'Arial', sans-serif !important;
+  font-weight: bold !important;
+  font-size: 1.8em !important;
+  color: white !important;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3) !important;
+  letter-spacing: 1px !important;
 }
 
 .navbar-nav .nav-link {
@@ -611,9 +637,25 @@ button:focus {
 }
 
 .resume {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   justify-content: center;
+}
+
+/* PDF viewer styling to reduce spacing */
+.resume .react-pdf__Document {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.resume .react-pdf__Page {
+  margin-bottom: 10px;
+}
+
+.resume .react-pdf__Page:last-child {
+  margin-bottom: 0;
 }
 
 .resume-left {
