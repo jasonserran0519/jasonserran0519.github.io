@@ -492,6 +492,7 @@ button:focus {
   opacity: 0.9 !important;
   transition: all 0.5s ease 0s !important;
   height: 100% !important;
+  min-height: 450px !important;
 }
 .project-card-view:hover {
   transform: scale(1.02) !important;
@@ -782,4 +783,18 @@ button:focus {
 }
 .fork-btn-inner::after {
   display: none !important;
+}
+
+.project-card-view .btn {
+  margin-top: auto !important;
+}
+
+.project-card-view .card-img-top {
+  height: 200px !important;
+  width: 100% !important;
+  object-fit: contain !important;
+  max-height: 200px !important;
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  padding: 15px !important;
+  border-radius: 8px !important;
 }
