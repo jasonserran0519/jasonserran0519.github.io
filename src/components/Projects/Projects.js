@@ -45,7 +45,7 @@ function Projects() {
             <ProjectCard
               imgPath={sludge}
               isBlog={false}
-              title="Editor.io"
+              title="Sludgde V2"
               description="Webapp used for testing at Santa Clara University's Imaginarium Lab to support multi-user research studies. The goal was to find if there was a correlation between the amount of visual stimulation active in the same time, and information retention. This was all possible with Tools such as React and Netflify"
               ghLink="https://github.com/jasonserran0519/sludge-v2"          
             />
