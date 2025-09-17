@@ -11,7 +11,7 @@ function AboutCard() {
             Hello Everyone, My name is <span className="purple">Jason Serrano </span>
             I'm from <span className="purple"> Hailey, Idaho.</span>
             <br />
-            I am recent graduate from<span className ="text-danger" > Santa Clara University</span>,
+            I am a recent graduate from<span className ="text-danger" > Santa Clara University</span>,
             <br />
             Where I completed my Computer Science and Engineering Degree!
             <br />
