@@ -28,8 +28,8 @@ function Home2() {
               </i>
               <br />
               <br />
-              My field of Interest's are building new 
-                <b className="purple">&nbsp; Web Technologies and Products </b> and
+              My field of interest's are building new 
+                <b className="purple">&nbsp;Web Technologies and Products </b> and
                 also in areas related to{" "}
                 <b className="purple">
                   Human and Computer Interaction
@@ -58,7 +58,7 @@ function Home2() {
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-            <h1> FEEL FREE TO <span className= "purple"> CONNECT </span> </h1>
+            <h1> PLEASE <span className= "purple"> CONNECT </span> </h1>
             
             <ul className="home-about-social-links">
               <li className="social-icons">
